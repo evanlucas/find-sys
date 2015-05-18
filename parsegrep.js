@@ -22,7 +22,7 @@ function parseChunk(chunk) {
   var filevers = splits2.shift()
   var fp = splits2.join('/')
   if (!filevers) {
-    console.log('missing', chunk)
+    //console.log('missing', chunk)
     return
   }
   var i = parseVersion(filevers)
